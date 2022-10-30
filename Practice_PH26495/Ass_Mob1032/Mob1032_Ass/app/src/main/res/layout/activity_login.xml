@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background"
+     android:padding="50px"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:shadowColor="#80BBEA"
+        android:text="LOGIN"
+
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#87B8DF"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alef_bold"
+        android:text="Username"
+        android:textColor="#03A9F4"
+
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/ed_UserDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+
+        android:backgroundTint="@color/blue3"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alef_bold"
+        android:text="Password"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/ed_PassDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+
+        android:backgroundTint="@color/blue3"
+        android:inputType="textPassword"
+        android:textColor="@color/black" />
+
+    <RadioGroup
+        android:id="@+id/rdo_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rdo_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="5dp"
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/aleo_light"
+            android:text="User"
+            android:textColor="#03A9F4"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"/>
+        <RadioButton
+            android:id="@+id/rdo_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/aleo_light"
+            android:text="Admin"
+            android:textColor="#03A9F4"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"/>
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_btn"
+        android:text="LOGIN"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50px"
+        android:fontFamily="@font/aleo_light"
+        android:text="@string/my_text2"
+        android:textColor="#03A9F4"
+        android:textSize="15dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

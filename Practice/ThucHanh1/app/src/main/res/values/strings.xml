@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThucHanh1</string>
+   <string name="myName">Lục Anh Tài</string>   <!-- Khai báo tên riêng-->
+</resources>

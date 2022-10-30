@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opt_info"
+        android:title="Thông tin của tôi"
+        app:showAsAction="always"
+        android:icon="@drawable/infoclass"
+        />
+    <item
+        android:id="@+id/opt_question"
+        android:title="Hỏi đáp"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Dịch vụ trực tuyến"
+        app:showAsAction="never"
+        />
+
+
+
+
+</menu>

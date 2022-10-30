@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_Class"
+   >
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/rightarrow"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_idClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alata"
+        android:text="id"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/alata"
+        android:text="|"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/tv_nameClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:text="NameClass"
+        android:textSize="20dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/imb_updateClass"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/revision"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/imb_deleteClass"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/removeclass"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>

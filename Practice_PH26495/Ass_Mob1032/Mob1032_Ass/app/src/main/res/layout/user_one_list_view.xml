@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/cap"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/tv_idUser"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:text="id"
+        android:textSize="20dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:text="|"
+        android:textSize="20dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_nameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:text="name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        />
+    <ImageView
+        android:id="@+id/imb_UpdateStudent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/updateuser"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/imb_deleteStudent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/man"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

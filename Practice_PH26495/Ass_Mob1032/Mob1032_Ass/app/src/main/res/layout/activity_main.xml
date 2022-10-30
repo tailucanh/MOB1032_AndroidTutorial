@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="90dp"
+            android:padding="2dp"
+            >
+
+            <ImageView
+                android:id="@+id/tv_ImgInfo"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/info2"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:layout_marginRight="10dp"
+                    android:text="Name :"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/acme"
+                    android:text="Lục Anh Tài"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:layout_marginRight="10dp"
+                    android:text="Birthday :"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/acme"
+                    android:text="15/04/2003"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:layout_marginRight="10dp"
+                    android:text="ID :"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/acme"
+                    android:text="PH26495"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/acme"
+                    android:layout_marginRight="10dp"
+                    android:text="Tel :"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/acme"
+                    android:text="0931360954"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/tv_moon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/moon"
+            android:scaleType="centerCrop"
+            android:background="@drawable/shadow_rect"
+            android:layout_marginTop="5dp"
+
+
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#c0c0c0" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caveat_brush"
+            android:shadowColor="#F3A3A3"
+            android:text="ASSIGMENT MOB1032"
+            android:textColor="#EF4A4A"
+            android:textSize="35dp"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/akaya_telivigala"
+            android:paddingLeft="55dp"
+            android:paddingTop="10dp"
+            android:text="Quản lí lớp học"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imb_addClass"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/add"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_showList"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Xem danh sách lớp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_button3"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/akaya_telivigala"
+            android:paddingLeft="55dp"
+            android:paddingTop="10dp"
+            android:text="Quản lí sinh viên"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imb_addStudent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/adduser"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/imganime"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imb_CallSun"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/phoneicon"
+            android:layout_marginRight="120dp"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imb_messSun"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@color/white"
+        android:paddingTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/messgif2"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background"
+    android:padding="30px"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/transaction"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+    <View
+        android:layout_width="110dp"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/ed_UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/blue3"
+            android:inputType="text"
+            android:hint="Họ và tên"
+            android:textColorHint="#03A9F4"
+            android:fontFamily="@font/alef_bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/ed_dateuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/blue3"
+            android:inputType="date"
+            android:hint="Ngày sinh"
+            android:textColorHint="#03A9F4"
+            android:fontFamily="@font/alef_bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/ed_phoneUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/blue3"
+            android:inputType="phone"
+            android:hint="Số điện thoại"
+            android:textColorHint="#03A9F4"
+            android:fontFamily="@font/alef_bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/ed_emailUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/blue3"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="#03A9F4"
+            android:fontFamily="@font/alef_bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dot"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/ed_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Danh sách lớp  "
+            android:textColor="#03A9F4"
+            android:fontFamily="@font/alef_bold"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/spin_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_UpdateUser"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_btn4"
+        android:text="Save Update"
+        android:fontFamily="@font/baloo"
+        android:textSize="20dp"
+        android:textColor="@color/dark"
+        />
+
+
+</LinearLayout>

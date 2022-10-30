@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Information</string>
+    <string name="my_text1"><u>Forget your password ? </u></string>
+
+    <string name="my_text2"> Don\'t have an account ? <u> Login</u>.</string>
+</resources>

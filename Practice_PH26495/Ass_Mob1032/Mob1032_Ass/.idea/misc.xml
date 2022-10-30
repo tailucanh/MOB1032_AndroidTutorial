@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable-v24/custom_background.xml" value="0.2" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable-v24/custom_button4.xml" value="0.142" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2615" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable-v24/shadow_rect.xml" value="0.2615" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_actionbar_info.xml" value="0.2695" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_background_listview.xml" value="0.2545" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_background_listview_user.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_background_spin.xml" value="0.2735" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_btn.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_btn4.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_btn5.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_btn7.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_btn_6.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_button.xml" value="0.169" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_button2.xml" value="0.169" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_button3.xml" value="0.169" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_button4.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_color_actionbar.xml" value="0.2695" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/custom_list_view_class.xml" value="0.2765" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2615" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/pf_photo.xml" value="0.183" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/drawable/photoframe.xml" value="0.183" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/font/biorhyme_extrabold.xml" value="0.37916666666666665" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/activity_dark.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/activity_list_student.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/activity_my_info.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/class_one_list_view.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/dialog_add_class.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/dialog_add_user.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/dialog_edit_class.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/dialog_edit_user.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/dilog_edit_class.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/item_spin_class.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/layout/user_one_list_view.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB1032_Android Tutorial/Practice_PH26495/Ass_Mob1032/Mob1032_Ass/app/src/main/res/menu/menu_option_info.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark"> #33322F</color>
+    <color name="blue3">#79CDCD</color>
+    <color name="bluestart">#1E90FF</color>
+    <color name="blueend">#00BFFF</color>
+    <color name="bluecenter">#5CBEE6</color>
+    <color name="backStart">#CCCCCC</color>
+    <color name="backEnd">#DDDDDD</color>
+    <color name="backcenter">#666666</color>
+    <color name="greenstart">#fffbd5</color>
+    <color name="greenCenter">#ff9966</color>
+
+    <color name="rednend">#FACE9C</color>
+    <color name="pinkStart">#ee9ca7 </color>
+    <color name="pinkstart">#F19373</color>
+    <color name="greenend">#5BBD2B</color>
+    <color name="graystart">#C6C09C</color>
+    <color name="grayend">#</color>
+    <color name="grouptart">#777777	</color>
+    <color name="groupend">#555555	</color>
+    <color name="graStart">#f2994a 	</color>
+    <color name="graEnd">#8e44ad	</color>
+    <color name="gra2Start">#3f5efb 	</color>
+    <color name="gra2End">#fc466b	</color>
+    <color name="gra3Start">#6be585 	</color>
+    <color name="gra3End">#009fff	</color>
+    <color name="gra4Start">#40e0d0 	</color>
+    <color name="graCenterStart">#c06c84 	</color>
+    <color name="gra4End">#c06c84	</color>
+    <color name="gra5Start">#c6ffdd</color>
+    <color name="gra5Center">#fbd786</color>
+    <color name="gra5End">#EEBDC3</color>
+    <color name="gra6Start">#ef8e38</color>
+    <color name="gra6End">#108dc7</color>
+</resources>
